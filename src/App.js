@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import FormMessage from './components/FormMessage';
 import ListMessages from "./components/ListMessages";
+import io from 'socket.io-client';
 
 class App extends Component {
 
